@@ -1,0 +1,22 @@
+/* Estilo para el botón */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #00796b; /* Color verde */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Efecto hover */
+.button:hover {
+    background-color: #005f56; /* Verde más oscuro */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}

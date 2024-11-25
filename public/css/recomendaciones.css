@@ -1,0 +1,68 @@
+/* Recomendaciones Técnicas: Diseño general */
+.recomendaciones-section, .faq-section, .articulos-section {
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #00796b;
+    margin-bottom: 15px;
+}
+
+.recomendacion-card, .faq-item, .articulo-card {
+    padding: 20px;
+    background-color: #f0f8f5;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recomendacion-card h3, .faq-item h3, .articulo-card h3 {
+    color: #00796b;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.recomendacion-card p, .faq-item p {
+    color: #333;
+    font-size: 16px;
+}
+
+.articulo-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.articulo-card a {
+    text-decoration: none;
+    color: white;
+    background-color: #00796b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.articulo-card a:hover {
+    background-color: #004d40;
+}
+
+/* Estilo de preguntas frecuentes */
+.faq-item {
+    padding: 15px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+}
+
+/* Botón de navegación */
+footer {
+    text-align: center;
+    margin-top: 30px;
+}

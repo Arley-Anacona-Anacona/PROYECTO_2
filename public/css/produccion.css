@@ -1,0 +1,86 @@
+/* Estadísticas de Producción: Formulario */
+.fecha-form, .estadisticas-section, .chart-section {
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #00796b;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus {
+    border-color: #00796b;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.3);
+}
+
+/* Estadísticas de producción */
+.estadisticas-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.estadisticas-card {
+    flex: 1 1 calc(30% - 10px);
+    padding: 20px;
+    background-color: #f0f8f5;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.estadisticas-card h3 {
+    color: #00796b;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.estadisticas-card p {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Gráficos */
+.chart-placeholder {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    color: #777;
+    font-size: 16px;
+}
